@@ -1,0 +1,20 @@
+.table {
+  width: 330px;
+  margin: 50px;
+  border: solid 1px black;
+  text-align: center;
+  background-color: rgb(55, 54, 54);
+}
+.tableHeader {
+  background-color: rgb(54, 52, 52);
+}
+.tableHeaderEl {
+  color: white;
+}
+.tableLine:nth-child(2n) {
+  background-color: rgb(169, 166, 166);
+}
+.tableLine {
+  background-color: white;
+  text-transform: capitalize;
+}
